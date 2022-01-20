@@ -1,0 +1,20 @@
+{
+  "name": "skyeng-smartapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/skyeng/index.js",
+  "scripts": {
+    "start": "nodemon ./src/index.js",
+    "start:prod": "node ./src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cookie-parser": "^1.4.6",
+    "dayjs": "^1.10.7",
+    "dotenv": "^14.2.0",
+    "express": "^4.17.1",
+    "node-html-parser": "^5.1.0"
+  }
+}
